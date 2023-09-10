@@ -40,13 +40,17 @@ function App() {
           </div>
         </div>
         <div className="bg-pink-600 flex flex-col mt-1">
-            <Testimonials/>
+            <div className="container mx-auto max-w-7xl p-4">
+              <Testimonials/>
+            </div>
         </div>
       </main>
       {/* End of the Main/}
       {/* Contact Us */}
       <div className="bg-pink-500 mt-1">
-        <ContactUs/>
+        <div className="container mx-auto max-w-7xl p-4">
+          <ContactUs/>
+        </div>
       </div>
       {/* End of the Contact Us */}
       {/* Footer */}
